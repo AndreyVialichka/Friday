@@ -1,0 +1,31 @@
+.radio {
+    accent-color: black;
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+}
+
+.radio::before {
+    accent-color: black;
+}
+
+
+.radio:checked::before {
+    accent-color: black;
+}
+
+.label {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.options {
+    text-align: center;
+}
+
+.span {
+    font-size: large;
+}

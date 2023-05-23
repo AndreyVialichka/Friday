@@ -1,0 +1,16 @@
+.select {
+    min-width: 150px;
+    margin: 30px;
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 4px;
+}
+
+.select:focus {
+    border: 1px solid rgb(43, 40, 40);
+    border-radius: 4px;
+}
+
+
+.option:hover {
+    text-align: center;
+}
