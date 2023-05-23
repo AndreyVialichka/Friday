@@ -12,8 +12,9 @@ import Test from './components/pages/Test/Test';
 function App() {
   return (
     <div className="App">
-      reewrwr
+      
       <Routes >
+        <Route path = '/' Component={Profile}/>
         <Route path = {'/Login'} Component={Login} />
         <Route path = {'/NewPasswordInitialization'} Component={NewPasswordInitialization} />
         <Route path = {'/PageNotFound'} Component={PageNotFoud} />
