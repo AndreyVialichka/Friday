@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Routes , Route } from 'react-router-dom';
+import { Routes , Route , NavLink } from 'react-router-dom';
 import Login from './components/pages/Login/Login';
 import NewPasswordInitialization from './components/pages/NewPasswordInitialization/NewPasswordInitialization';
 import PageNotFoud from './components/pages/PageNotFoud/PageNotFoud';
@@ -21,6 +21,15 @@ function App() {
         <Route path = {'/Registration'} Component={Registration} />
         <Route path = {'/Test'} Component={Test} />
       </Routes>
+      <nav>
+        <NavLink to ='/Login'>Login</NavLink>
+        <NavLink to ='/NewPasswordInitialization'>NewPasswordInitialization</NavLink>
+        <NavLink to ='/PageNotFound'>PageNotFound</NavLink>
+        <NavLink to ='/PasswordRecovery'>PasswordRecovery</NavLink>
+        <NavLink to ='/Profile'>Profile</NavLink>
+        <NavLink to ='/Registration'>Registration</NavLink>
+        <NavLink to ='/Test'>Test</NavLink>
+      </nav>
     </div>
   );
 }
